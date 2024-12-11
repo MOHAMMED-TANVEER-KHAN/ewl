@@ -1,0 +1,610 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+     <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+      <!-- Animated -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+     <!-- Main CSS File  -->
+     <link rel="stylesheet" href="style.css">
+
+  <!-- OwlCarousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <title>Ewilco</title>
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <div class="container-fluid small_nav">
+          <a class="navbar-brand" href="#">
+            <img src="images/Ewilco-logo.png" alt="" width="130" height="45" class="d-inline-block align-text-top">
+          </a>
+          <div class="nav_icon"><i class="fas fa-building"></i> </div>
+          <div class="info"><span>Sader Bazar</span><br>
+               <span class="light_span">Indore 452001</span>
+          </div>
+          <div class="nav_icon"><i class="fas fa-phone"></i> </div>
+          <div class="info"><span>Phone Number</span><br>
+               <span class="light_span">+91-9617577847</span>
+          </div>
+          <div class="nav_icon"><i class="fas fa-envelope"></i> </div>
+          <div><span>Send Your Mail</span><br>
+               <span class="light_span">example.@.com </span>
+          </div>
+        </div>
+      </nav>
+
+      <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Services</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects 
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Ongoing Project</a></li>
+                      <li><a class="dropdown-item" href="#">Project Done</a></li>
+                     
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                  </li>
+                  <button type="button" class="btn btn-secondary">Make Appointment</button>
+                </ul>
+              </div>
+            </div>
+          </nav>
+      </header>
+
+      <button class="btn toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fas fa-bars"></i></button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <a class="navbar-brand" href="#">
+      <img src="images/Ewilco-logo.png" alt="" width="130" height="45" class="d-inline-block align-text-top">
+    </a>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects 
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Ongoing Project</a></li>
+            <li><a class="dropdown-item" href="#">Project Done</a></li>
+            <li><hr class="dropdown-divider"></li>
+           
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+        </li>
+        <button type="button" class="btn btn-secondary">Make Appointment</button>
+      </ul>
+    
+  </div>
+</div>
+
+    <section class="contemporary">
+      
+            
+                <div class="col-md-3 color"></div>
+                <div class="col-md-9"><img src="images/home-page-1.jpg" alt=""></div>
+           
+       
+    </section>
+
+    <section class="electrical_solutions">
+        <h1 class="animate__animated animate__fadeInRight wow" style="animation-duration: 2s;">We Excel At Providing Contemporary Electrical Solutions</h1>
+        <p class="animate__animated animate__fadeInLeftBig wow" style="animation-duration: 2.10s;">Ewilco Engineers Pvt. Ltd. is a dedicated and excellent team of electrical project workers in India offering a wide range of electrical types of assistance to every industry. Our exceptionally prepared electrical experts bring over years of joined insight to deal with your project effectively.</p>
+        <button type="button" class="btn color_btn animate__animated animate__fadeInLeftBig wow" style="animation-duration: 3s;">CONTACT US</button>
+        <button type="button" class="btn animate__animated animate__fadeInRight wow" style="animation-duration: 3s;">WATCH VIDEO</button>
+    </section>
+
+    <section class="electrical_services mt-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 bck_side"><img src="images/c-1.jpg" alt=""></div>
+          <div class="border_div works"><img class="border_img" src="images/male-electrician-works.jpg" alt=""></div>
+          <div class="col-md-5">
+            <h6 class="animate__animated animate__fadeInRight wow" style="animation-duration: 2s;">Welcome To Ewilco Engineers</h6>
+            <h2>Bringing Electrical Services To New Heights</h2>
+            <p>At Ewilco, we pride ourselves on serving our clients with the best quality electrical solutions curated by our professionals. We have broad experience in dealing with a wide range of customers and industries and our electrical service guarantees that your framework will remain protected and will run efficiently. Our experts are excellent enough to deal with everything from new wiring installations to analyzing and board fixations. We additionally give a full plan and undertake the executive answers to deal with all parts of the establishment of your electrical framework. Along we make sure to deliver exactly what they ask for.</p>
+            <p>As an electrical service providing company, we follow through with on-time delivery of work under our client's budget and financial plans. Regardless of the time required for completing the work verything from new wiring installations to analyzing and board fixations. We additionally</p>
+            <button type="button" class="btn color_btn">More About us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offered mt-5">
+      <div class="container">
+        <div class="row">
+          
+          <div class="services_content">
+          <h5 class="animate__animated animate__fadeInUp wow" style="animation-duration: 3s;">Our Services</h5>
+          <h2>Services Offered By Us</h2>
+          <h6> We not only serve on-time service, but we also promise      up-to-date solutions <p>
+            that hold the capability of fulfilling all of your electrical servicing needs.</p></h6>
+          </div>
+
+          <div class="father mt-5 animate__animated animate__fadeInRight wow" style="animation-duration: 2s;">
+
+            <div><i class="fas fa-network-wired icons"></i></div>
+            <div class="heading bck">
+            <h4>Distribution System</h4>
+              <h6>Our service range covers the electric supply way from the transmission to distribution</h6>
+              <a class="link" href="">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div> <i class="fas fa-satellite-dish icons"></i></i></div>
+            <div class="heading">  <h4>Communication</h4>
+            <h6>Our service range covers the electric supply way from the transmission to distribution and..</h6>
+            <a class="link" href="">Read More <i class="fas fa-arrow-right"></i></a></div>
+
+            <div><i class="fas fa-lock icons"></i></div>
+            <div class="heading">  <h4>
+              Security System</h4>
+            <h6>Our service range covers the electric supply way from the transmission to distribution and..</h6>
+            <a class="link" href="">Read More <i class="fas fa-arrow-right"></i></a></div>
+
+          </div>
+
+          <div class="father mt-3 scnd animate__animated animate__fadeInLeftBig wow" style="animation-duration: 2s;">
+
+            <div> <i class="fas fa-exclamation-triangle icons"></i></div>
+            <div class="heading bck">
+            <h4>
+              Low Storage Voltage</h4>
+              <h6>Our service range covers the electric supply way from the transmission to distribution</h6>
+              <a class="link" href="">Read More <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div> <i class="fas fa-plug icons"></i></div>
+            <div class="heading">  <h4>
+              Automation System</h4>
+              <h6>Our service range covers the electric supply way from the transmission to distribution</h6>
+            <a class="link" href="">Read More <i class="fas fa-arrow-right"></i></a></div>
+
+            <div>  <i class="fas fa-lightbulb icons"></i></div>
+            <div class="heading">  <h4>
+              Lighting Installation</h4>
+              <h6>For automation systems, we compile all the innovative products and technology...</h6>
+            <a class="link" href="">Read More <i class="fas fa-arrow-right"></i></a></div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="counter_section">
+    <div class="row">
+      <div class="col-md-2 bck_colr"><h2 class="counter">20</h2>
+        <p>Years of Experience</p></div>
+
+       <div class="col-md-2 bck_colr"><h2 class="counter">2234</h2>
+       <p>Projects Completed</p></div>
+
+       <div class="col-md-2 bck_colr"><h2 class="counter">1429</h2>
+       <p>Satisfied Customers</p></div>
+
+        <div class="col-md-2 bck_colr"><h2 class="counter">64</h2>
+        <p>Professional Team</p></div>
+    </div>
+    </section>
+
+    <section class="industries">
+      <div class="container">
+        <div class="row">
+          <div class="frst_half col-md-6">
+            <h1 class="mt-5 animate__animated animate__fadeInLeftBig wow" style="animation-duration: 2s;">Industries We Cater</h1>
+
+            <div class="frst_row">
+              
+              
+              <div class="hospital">
+                <i class="fas fa-hospital icons"></i>
+            <h6>Hospital</h6>
+            <p>Hospitals need very secured and reliable electrical services and therefore we deliver them with an electrical framework that never fails to meet their expectations</p>
+           </div>
+
+           <div class="hospital">
+            <i class="fas fa-building icons"></i>
+            <h6>Commercial</h6>
+            <p>The expertise of our team lies in the commercial sector, where we understand client's needs and we provide them exactly with what they want in a customised framing.</p>
+           </div>
+          </div>
+
+          <div class="frst_row">
+           
+            <div class="hospital">
+              <i class="fas fa-city icons"></i>
+          <h6>Shopping Mall</h6>
+          <p>Malls as we all know cannot function without electricity, and here's where we perfectly blend into their functioning by providing them with the best customised services.</p>
+         </div>
+
+         <div class="hospital">
+          <i class="fas fa-home icons"></i>
+          <h6>Residential</h6>
+          <p>We understand that home is where everyone comes back to relax and that's why we make sure to provide residential electrical services that come with no glitches servicing..</p>
+         </div>
+        </div>
+
+
+         </div>
+
+
+          <div class="scnd_half mt-5 col-md-6">
+            <p>Our wide range of electrical services can fulfill all of your firm's requirements in one go, in a smooth manner. Ewilco's service range extends to a large spectrum that can cater several industries that need electrical support for their functioning.</p>
+            <img src="images/checking-electrical-box.jpg" alt="" class="animate__animated animate__slideInUp wow" style="animation-duration: 2s;">
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium molestiae consequuntur placeat mollitia velit quis minima non ducimus eaque magni doloremque, sunt ex cum tempore exercitationem! Eligendi maiores aliquid aspernatur laudantium commodi doloremque sequi nobis quisquam atque error voluptatibus harum dicta facilis eos exercitationem aperiam quasi deserunt, expedita nam ipsa?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium porro iusto corporis, doloribus ex ea similique dolorem corrupti dolor magni!Laudantium porro iusto corporis, doloribus ex ea similique dolorem corrupti dolor magni!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="pricing mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"><h5 class="animate__animated animate__fadeInLeftBig wow" style="animation-duration: 1s;">Our Pricing</h5><h2>Project We Have Done</h2></div>
+          <div class="col-md-8"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+            <button type="button" class="btn color_btn">More About us</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects_details">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="img_box"><img src="images/E59-Masjid-Mod.png" alt="">
+            <div class="tittle">
+              <p>MGM Hospital</p>
+            </div>
+          <div class="txt_cont">
+            <h4>Railway Station</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+            <a class="link" href=""><p><span>Read More <i class="fas fa-arrow-right"></i></span> </p></a>
+          </div></div>
+
+          <div class="img_box"><img src="images/Smart-delivery-point.png" alt="">
+            <div class="tittle">
+              <p>MGM Hospital</p>
+            </div>
+            <div class="txt_cont">
+              <h4>Railway Station</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a class="link" href=""><p><span>Read More <i class="fas fa-arrow-right"></i></span> </p></a>
+            </div></div>
+          
+
+            <div class="img_box"><img src="images/Trends-1.png" alt="">
+              <div class="tittle">
+                <p>MGM Hospital</p>
+              </div>
+              <div class="txt_cont">
+                <h4>Railway Station</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a class="link" href=""><p><span>Read More <i class="fas fa-arrow-right"></i></span> </p></a>
+              </div></div>
+        </div>
+
+        <div class="row mt-5 scnd_row">
+          <div class="img_box"><img src="images/hospital_indore-1.jpg" alt="">
+            <div class="tittle">
+              <p>MGM Hospital</p>
+            </div>
+            <div class="txt_cont">
+              <h4>Railway Station</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a class="link" href=""><p><span>Read More <i class="fas fa-arrow-right"></i></span> </p></a>
+            </div></div>
+
+          <div class="img_box"><img src="images/railway.jpg" alt="">
+            <div class="tittle">
+              <p>MGM Hospital</p>
+            </div>
+            <div class="txt_cont">
+              <h4>Railway Station</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a class="link" href=""><p><span>Read More <i class="fas fa-arrow-right"></i></span> </p></a>
+            </div></div>
+
+             <div class="img_box"><img src="images/club-house.jpg" alt="">
+              <div class="tittle">
+                <p>MGM Hospital</p>
+              </div>
+              <div class="txt_cont">
+                <h4>Railway Station</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <a class="link" href=""><p><span>Read More <i class="fas fa-arrow-right"></i></span> </p></a>
+              </div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h6 class="animate__animated animate__fadeInLeftBig wow" style="animation-duration: 1s;"">Testimonials</h6>
+            <h2>Have a look what our clients
+              have to say about us</h2>
+              <p>Sharing testimonials of existing clients and letting you know about how they trust us on this makes us strive for the best so that we can come up with more in-trend customised services only for your project
+              us on this makes us strive for the best so that we can come up with more in-trend customised services only for your project
+              </p>
+          </div>
+          <div class="col-md-6 half_slider">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum?</p>
+                 <img src="images/GVM png.png" class="d-block " alt="..."><h6>G.V.M</h6>
+                </div>
+                <div class="carousel-item">
+                 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum?</p>
+                  <img src="images/M.G.M. Medical College Indore png.png" class="d-block alt="..."><H6>M.G.M. Medical College</H6>
+                </div>
+                <div class="carousel-item">
+                 
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum?</p>
+                  <img src="images/SACHIN ELECTRICALS png.png" class="d-block alt="..."><h6>Sachin Electricals</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="client mt-5">
+      <div class="container">
+        <div class="row">
+          <div>
+            <h6>Client's Whom We've Served</h6>
+            <h5>Types of Clients and How To Work With Each</h5>
+          </div>
+
+          <div class="owl-carousel owl-theme mt-5 pb-5">
+            <div class="item"><img src="images/slider_brand_logo/1.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/2.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/3.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/4.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/8.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/6.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/7.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/8.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/9.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/10.jfif" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/11.png" alt=""></div>
+            <div class="item"><img src="images/slider_brand_logo/12.png" alt=""></div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+  
+    <footer class="footer pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 outline"><img class="mb-3" src="images/footer-ewilco-logo.png" alt="" width="130" height="45"><p>Ewilco Engineers Pvt. Ltd. is a full service electrical company offering a wide assortment of services ranging from commercial ground up build outs to residential service upgrades and industrial full gut renovations, we excel in all of it which we customize as per our client's requirements. We as a company, deliver services that are reliable, that fits into our client's budget and most importantly safe, so that we can fulfill all of their criterias and eventually be their supportive electrical backbone efficiently.</p></div>
+
+          <div class="col-md-2 outline"><h3 class="mb-4">Quick</h3>
+          <span><i class="fas fa-chevron-right"></i>Home</span>
+          <span><i class="fas fa-chevron-right"></i>About us</span>
+          <span><i class="fas fa-chevron-right"></i>ongoing Project</span>
+          <span><i class="fas fa-chevron-right"></i>Project Done</span>
+          <span><i class="fas fa-chevron-right"></i>Gallery</span>
+          <span><i class="fas fa-chevron-right mb-5"></i>Contact us</span>
+       </div>
+
+          <div class="col-md-3 outline"><h3 class="mb-4">Our Services</h3>
+            <span><i class="fas fa-chevron-right"></i>Distribution System</span>
+            <span><i class="fas fa-chevron-right"></i>Communication System</span>
+            <span><i class="fas fa-chevron-right"></i>Security System</span>
+            <span><i class="fas fa-chevron-right"></i>Low Storage Voltage</span>
+            <span><i class="fas fa-chevron-right"></i>Automation System</span>
+            <span><i class="fas fa-chevron-right mb-5"></i>Lighting Installation</span>
+          </div>
+
+          <div class="col-md-3 outline"><h3 class="mb-4">Newsletter</h3>
+          <p>Do you have some queries regarding our services or want to know more about us? It's an easy way to do so, just drop a mail here and our team will respond to it immediately.</p>
+
+           <div class="form-container">
+          <form action="#" method="POST">
+            <input type="email" name="email" placeholder="Email" required>
+            <button type="submit">Send</button>
+          </form>
+           </div>
+           <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+          </div>
+
+
+         <!-- <div class="footer_details">
+            <div class="footer_box">
+              <h3>+91 9617577847</h3>
+              <p>Give Us A Call</p>
+            </div>
+            <div class="footer_box">
+              <h3>
+                example.@.com </h3>
+              <p>Drop Us a Line</p>
+            </div>
+            <div class="footer_box">
+              <h3>Sader Bazar</h3>
+              <p>Office Location</p>
+            </div>
+          </div>-->
+
+          <div class="line mt-3">
+            <div></div>
+          </div>
+
+          <h4>Mohammed Tanveer Khan © 2024</h4>
+
+
+        </div>
+      </div>
+    </footer>
+
+    <button id="scrollToTopBtn" style="display: block;"><i class="fas fa-angle-up"></i></button>
+       
+
+  
+    
+
+ 
+
+
+
+
+   
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var toggler = document.querySelector('.navbar-toggler');
+        var collapseElement = document.querySelector('#navbarSupportedContent');
+
+        toggler.addEventListener('click', function() {
+          if (collapseElement.classList.contains('show')) {
+            document.body.classList.remove('toggler-open');
+          } else {
+            document.body.classList.add('toggler-open');
+          }
+        });
+      });
+    </script>
+
+<!-- for counter -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+});
+</script>
+<!-- end counter -->
+
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- OwlCarousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:15,
+      nav:false,
+      autoplay: true,  
+      autoplayTimeout: 2000, 
+      autoplayHoverPause: false,  
+      responsive:{
+        0:{
+          items:2
+        },
+        600:{
+          items:3
+        },
+        1000:{
+          items:5
+        }
+      }
+    });
+  });
+</script>
+
+<!-- Animated -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script>
+  new WOW().init();
+</script>
+
+<!-- scrollToTopBtn -->
+<script>
+  let mybutton = document.getElementById("scrollToTopBtn");
+
+
+window.onscroll = function() {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+
+mybutton.onclick = function() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+};
+
+</script>
+ 
+  </body>
+</html>
